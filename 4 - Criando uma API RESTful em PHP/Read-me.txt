@@ -1,0 +1,16 @@
+
+Guia Rápido para Criar uma API RESTful em PHP
+Descrição:
+Neste projeto, vamos criar uma API RESTful simples em PHP que permitirá que os clientes realizem operações CRUD (Create, Read, Update, Delete) em uma entidade específica. Neste exemplo, criaremos uma API para gerenciar recursos de usuários.
+
+Passos para Executar o Projeto:
+Configuração do Ambiente:
+
+Certifique-se de ter um servidor web local configurado (como XAMPP, WAMP, MAMP, etc.).
+Desenvolvimento da API:
+
+Crie os seguintes arquivos PHP: conexao.php, usuarios.php.
+Implemente a lógica CRUD na API de usuários.
+Testando a API:
+
+Utilize ferramentas como Postman ou cURL para enviar solicitações HTTP para a API e testar as operações CRUD.

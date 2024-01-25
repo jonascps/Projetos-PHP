@@ -1,0 +1,18 @@
+Guia Rápido para Integração com APIs Externas em PHP
+Descrição:
+Neste projeto, vamos criar um sistema simples para integrar com APIs externas usando PHP. Vamos explorar duas maneiras comuns de fazer isso: usando a função file_get_contents() e a extensão cURL.
+
+Passos para Executar o Projeto:
+Identificação da API Externa:
+
+Encontre uma API externa que deseja integrar. Certifique-se de entender os endpoints disponíveis, os métodos de autenticação necessários e o formato dos dados esperados.
+Desenvolvimento da Integração:
+
+Escolha o método de integração adequado (por exemplo, file_get_contents() ou cURL) com base nas características da API externa.
+Construa a URL da requisição e adicione parâmetros, se necessário.
+Realize a requisição à API externa e receba a resposta.
+Processe os dados recebidos, conforme necessário (por exemplo, decodificando JSON, XML, etc.).
+Testando a Integração:
+
+Execute o script PHP que integra com a API externa.
+Verifique se os dados são recebidos corretamente e se a integração está funcionando conforme o esperado.

@@ -1,0 +1,21 @@
+Guia Rápido para Autenticação JWT em PHP
+Descrição:
+Neste projeto, vamos criar um sistema de autenticação simples usando JSON Web Tokens (JWT) em PHP. JWT é um padrão aberto (RFC 7519) que define um formato compacto e autocontido para transmitir com segurança informações entre partes como um objeto JSON.
+
+Passos para Executar o Projeto:
+Instalação da Biblioteca JWT:
+
+Baixe a biblioteca firebase/php-jwt usando o Composer. Certifique-se de ter o Composer instalado no seu sistema.
+bash
+Copy code
+composer require firebase/php-jwt
+Desenvolvimento da Autenticação:
+
+Crie um arquivo PHP chamado autenticacao.php que conterá a lógica de autenticação.
+Implemente a lógica para gerar tokens JWT para usuários autenticados.
+Implemente a lógica para verificar e decodificar tokens JWT recebidos dos clientes.
+Testando a Autenticação:
+
+Crie um arquivo PHP chamado index.php para simular um cliente que deseja autenticar e acessar recursos protegidos.
+Faça solicitações HTTP para o arquivo autenticacao.php para autenticar e obter tokens JWT.
+Faça solicitações HTTP para acessar recursos protegidos passando o token JWT no cabeçalho Authorization.

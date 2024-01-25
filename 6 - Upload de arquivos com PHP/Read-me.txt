@@ -1,0 +1,17 @@
+Guia Rápido para Upload de Arquivos com PHP
+Descrição:
+Neste projeto, vamos criar um sistema simples para permitir que os usuários façam upload de arquivos para o servidor usando PHP. Os arquivos enviados serão armazenados em um diretório específico no servidor.
+
+Passos para Executar o Projeto:
+Configuração do Ambiente:
+
+Certifique-se de ter um servidor web local configurado (como XAMPP, WAMP, MAMP, etc.).
+Desenvolvimento do Sistema de Upload:
+
+Crie um formulário HTML que permita aos usuários selecionar e enviar arquivos.
+Crie um arquivo PHP para processar o upload dos arquivos e movê-los para o diretório de destino.
+Testando o Sistema de Upload:
+
+Abra o navegador e acesse o formulário de upload.
+Selecione um arquivo e envie-o para o servidor.
+Verifique se o arquivo foi corretamente enviado e armazenado no diretório de destino.

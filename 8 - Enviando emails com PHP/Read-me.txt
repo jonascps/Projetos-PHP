@@ -1,0 +1,10 @@
+Guia Rápido para Enviar Emails Usando PHP . 
+1 - Exemplo usando função nativa mail();
+
+Para enviar e-mails com PHP, você pode usar a função mail() embutida do PHP ou bibliotecas de terceiros mais avançadas, como PHPMailer ou Swift Mailer. Abaixo, vou lhe mostrar um exemplo simples usando a função mail() e outro usando a biblioteca PHPMailer.
+
+
+2 - Exemplo usando bliblioteca PHPMailer
+
+Para usar o PHPMailer, você precisa baixar a biblioteca ou instalá-la via Composer.
+CMD : composer require phpmailer/phpmailer

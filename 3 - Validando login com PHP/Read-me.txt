@@ -1,0 +1,34 @@
+Guia Rápido para Validar Login com PHP
+Descrição:
+Neste projeto, vamos criar um sistema de validação de login simples em PHP. O sistema permitirá que os usuários insiram suas credenciais (nome de usuário e senha) e validará essas credenciais com as informações armazenadas em um banco de dados MySQL.
+
+Passos para Executar o Projeto:
+Configuração do Ambiente:
+
+Certifique-se de ter um servidor web local configurado (como XAMPP, WAMP, MAMP, etc.).
+Tenha o MySQL instalado e em execução.
+Crie um Banco de Dados:
+
+Abra o phpMyAdmin ou a linha de comando do MySQL.
+Execute o seguinte comando para criar um banco de dados chamado login_example:
+sql
+Copy code
+CREATE DATABASE login_example;
+Crie uma Tabela de Usuários:
+
+Execute o seguinte comando para criar uma tabela chamada usuarios dentro do banco de dados login_example:
+sql
+Copy code
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100) NOT NULL,
+    senha VARCHAR(255) NOT NULL
+);
+Desenvolvimento da Página de Login:
+
+Crie um arquivo PHP chamado login.php que conterá o formulário de login.
+Implemente a lógica para validar as credenciais do usuário.
+Testando o Projeto:
+
+Abra o navegador e navegue até http://localhost/seu_projeto/login.php.
+Insira credenciais válidas e inválidas para testar a validação do login.

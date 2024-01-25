@@ -1,0 +1,16 @@
+Guia Rápido para Gerar PDFs com PHP usando TCPDF
+Passos para Executar o Projeto:
+Instalação do TCPDF:
+
+Baixe a biblioteca TCPDF do site oficial (https://tcpdf.org/) ou instale via Composer.
+bash
+Copy code
+composer require tecnickcom/tcpdf
+Desenvolvimento do Script PHP:
+
+Crie um script PHP que irá gerar o conteúdo do PDF.
+Use a classe TCPDF para configurar o documento PDF, adicionar conteúdo e salvar o arquivo PDF.
+Testando a Geração do PDF:
+
+Execute o script PHP no seu servidor web.
+Verifique se o PDF foi gerado com sucesso e se o conteúdo está correto.

@@ -1,0 +1,35 @@
+Guia Rápido para Criar um CRUD com PDO em PHP
+Descrição:
+Neste projeto, vamos criar um CRUD básico (Create, Read, Update, Delete) utilizando PHP e PDO (PHP Data Objects) para interagir com o banco de dados. O CRUD permitirá inserir, visualizar, atualizar e excluir registros de uma tabela no banco de dados MySQL.
+
+Passos para Executar o Projeto:
+Configuração do Ambiente:
+
+Certifique-se de ter um servidor web local configurado (como XAMPP, WAMP, MAMP, etc.).
+Tenha o MySQL instalado e em execução.
+Crie um Banco de Dados:
+
+Abra o phpMyAdmin ou a linha de comando do MySQL.
+Execute o seguinte comando para criar um banco de dados chamado crud_example:
+sql
+Copy code
+CREATE DATABASE crud_example;
+Crie uma Tabela:
+
+Execute o seguinte comando para criar uma tabela chamada usuarios dentro do banco de dados crud_example:
+sql
+Copy code
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    idade INT
+);
+Desenvolvimento do CRUD:
+
+Crie os seguintes arquivos PHP: conexao.php, index.php, inserir.php, editar.php, atualizar.php, excluir.php.
+Implemente a lógica de CRUD em cada arquivo PHP conforme necessário.
+Testando o Projeto:
+
+Abra o navegador e navegue até http://localhost/seu_projeto/index.php para acessar a aplicação CRUD.
+Teste todas as operações CRUD (inserir, visualizar, atualizar, excluir) para garantir que funcionem corretamente.

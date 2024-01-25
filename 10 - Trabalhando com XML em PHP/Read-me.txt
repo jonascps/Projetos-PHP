@@ -1,0 +1,17 @@
+Guia Rápido para Trabalhar com XML em PHP
+Descrição:
+Neste projeto, vamos explorar como ler e escrever dados em XML usando PHP. Vamos abordar a leitura de um arquivo XML existente e a criação de um novo arquivo XML com dados fornecidos.
+
+Passos para Executar o Projeto:
+Leitura de XML Existente:
+
+Carregue o arquivo XML existente usando a função simplexml_load_file() do PHP.
+Navegue pelos elementos XML para acessar os dados necessários.
+Escrita de Novo XML:
+
+Crie um novo documento XML usando a classe SimpleXMLElement.
+Adicione elementos e atributos conforme necessário ao novo documento XML.
+Testando a Manipulação de XML:
+
+Execute o script PHP que lê e/ou escreve XML.
+Verifique se os dados são manipulados corretamente e se o XML gerado está de acordo com as expectativas.
