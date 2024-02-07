@@ -1,0 +1,5 @@
+Guia para Implementar um Sistema de Login com Sessões em PHP
+
+Index.php encontrará script que armazena dados em sua Sessão.
+Sessões são uma forma simples de armazenar dados para usuários individuais usando um ID de sessão único. 
+Sessões podem ser usadas para persistir informações entre requisições de páginas.

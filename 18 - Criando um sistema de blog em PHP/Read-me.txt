@@ -1,0 +1,17 @@
+Guia para Criar um Sistema de Blog em PHP
+1. Estrutura do Banco de Dados:
+Crie uma estrutura de banco de dados para armazenar posts, usuários e comentários. 
+Há código desenvolvido que está renomeado como post.sql
+2. Páginas do Blog:
+Crie páginas para exibir os posts, detalhes do post, formulário de login/registro e formulário para adicionar novos posts.
+3. Funcionalidades do Blog:
+Permita que os usuários visualizem os posts existentes e os detalhes de cada post.
+Implemente funcionalidades de login e registro para que os usuários possam se autenticar e publicar posts.
+Permita que os usuários façam comentários nos posts.
+Adicione uma área de administração para gerenciar os posts (criar, editar, excluir).
+4. Segurança e Validação:
+Implemente medidas de segurança, como hashing de senhas, para proteger as informações dos usuários.
+Valide todos os dados de entrada para evitar vulnerabilidades, como ataques de injeção de SQL e cross-site scripting (XSS).
+5. Melhorias e Personalizações:
+Adicione recursos adicionais, como tags para organizar os posts, sistema de categorias, sistema de busca, etc.
+Personalize o design do blog usando CSS e frameworks front-end, se necessário.

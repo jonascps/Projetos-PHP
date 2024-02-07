@@ -1,0 +1,14 @@
+Guia para Criptografia e Segurança em PHP
+1. Armazenamento Seguro de Senhas:
+Nunca armazene senhas em texto simples no banco de dados.
+Use funções de hash seguras, como password_hash() para armazenar senhas de forma segura.
+Ao verificar as senhas durante o login, use password_verify() para comparar a senha fornecida pelo usuário com o hash armazenado no banco de dados.
+
+OBS:
+Proteção contra XSS (Cross-Site Scripting):
+Sempre valide e sanitize dados de entrada antes de exibi-los na página.
+Use funções como htmlspecialchars() para escapar caracteres especiais que podem ser usados em ataques XSS.
+
+Criptografia de Dados Sensíveis:
+Use algoritmos de criptografia seguros para proteger dados sensíveis, como informações de cartão de crédito.
+Evite criar seu próprio algoritmo de criptografia; em vez disso, use bibliotecas confiáveis Ex: OpenSSL.

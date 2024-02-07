@@ -1,0 +1,18 @@
+Guia para Implementar um Sistema de Permissões em PHP
+1. Estrutura do Banco de Dados:
+Adicione uma tabela usuarios para armazenar informações sobre os usuários, incluindo o nível de permissão.
+Adicione uma tabela permissoes para armazenar diferentes níveis de permissão.
+2. Definindo Níveis de Permissão:
+Identifique os diferentes níveis de permissão necessários em seu sistema, como administrador, moderador e usuário comum.
+3. Armazenamento de Permissões:
+Armazene as permissões associadas a cada usuário ou grupo de usuários em seu banco de dados.
+4. Verificação de Permissões:
+Ao acessar recursos protegidos, verifique se o usuário atual tem permissão para realizar a operação desejada.
+Isso pode ser feito consultando o banco de dados para verificar se o usuário tem as permissões adequadas.
+5. Implementação de Controle de Acesso Baseado em Papéis (RBAC):
+Utilize o conceito de Controle de Acesso Baseado em Papéis (RBAC) para gerenciar permissões de forma eficiente.
+Atribua usuários a funções ou papéis e defina as permissões associadas a cada papel.
+
+Como executar
+1. Acessa a index e faça login conforme criado pela tabela.
+

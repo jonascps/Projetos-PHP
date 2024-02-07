@@ -1,0 +1,4 @@
+Guia Rápido para Trabalhar com Datas e Horários em PHP
+
+Manipulação de Datas é uma coisa simples que pode parecer complicado mas como base lembre-se que os formatos são baseados no padrão americanos. 
+É possivel fazer manipulações e definir horarios especificos e também fazer configurações de formatos. 

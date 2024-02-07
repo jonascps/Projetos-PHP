@@ -1,0 +1,20 @@
+Guia para Implementar um Sistema de Carrinho de Compras em PHP
+Descrição:
+Neste guia, vamos criar um sistema de carrinho de compras simples em PHP. Este sistema permitirá que os usuários naveguem pelos produtos disponíveis, adicionem itens ao carrinho e visualizem os produtos selecionados antes de finalizar a compra.
+
+Passos para Implementar o Sistema de Carrinho de Compras:
+1. Página de Produtos (produtos.php):
+Na página de produtos, os usuários verão uma lista de produtos disponíveis para compra.
+Cada produto terá um botão "Adicionar ao Carrinho" para permitir que os usuários adicionem o produto selecionado ao carrinho.
+O sistema armazenará os produtos adicionados ao carrinho usando sessões do PHP.
+2. Página de Carrinho (carrinho.php):
+A página de carrinho exibirá os produtos que foram adicionados ao carrinho.
+Os usuários poderão visualizar os produtos selecionados, quantidades e preços antes de prosseguir para o checkout.
+Será possível retornar à página de produtos para continuar comprando.
+Funcionamento do Sistema:
+Quando um usuário adiciona um produto ao carrinho na página de produtos, o sistema armazena o ID do produto na sessão.
+Na página de carrinho, o sistema usa os IDs dos produtos armazenados na sessão para recuperar os detalhes dos produtos adicionados e exibi-los ao usuário.
+Considerações de Segurança:
+Certifique-se de validar e limpar os dados de entrada para evitar vulnerabilidades de segurança, como ataques de injeção.
+Use HTTPS para proteger as informações do cliente durante o checkout.
+Considere adicionar medidas de segurança adicionais, como autenticação de usuário e proteção contra CSRF.

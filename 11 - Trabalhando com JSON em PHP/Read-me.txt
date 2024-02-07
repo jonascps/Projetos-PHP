@@ -1,0 +1,2 @@
+Guia Rápido para Trabalhar com XML em PHP
+Ler XML é uma tarefa comumm de um programador e há várias maneiras de serem realizadas, nesse diretorio há dois exemplos

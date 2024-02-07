@@ -1,0 +1,3 @@
+Guia Rápido para Manipulação de Imagens com PHP
+
+Arquivo Index.php há mais de um exemplos de edições de imagens com PHP
